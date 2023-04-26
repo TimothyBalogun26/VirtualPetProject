@@ -1,3 +1,5 @@
+package VirtualPetGame;
+
 public class PetNeeds {
     private int hunger;
     private int thirst;

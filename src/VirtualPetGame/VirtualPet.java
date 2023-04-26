@@ -1,3 +1,7 @@
+package VirtualPetGame;
+
+import VirtualPetGame.PetNeeds;
+
 public class VirtualPet {
     private String name;
     private int age;
@@ -36,5 +40,15 @@ public class VirtualPet {
         System.out.println("Happiness: " + petNeeds.getHappiness() + "/100");
         System.out.println();
     }
+    public String getName(){
+        return name;
     }
+    public int getAge(){
+        return age;
+    }
+
+    public PetNeeds getPetNeeds() {
+        return petNeeds;
+    }
+}
 
